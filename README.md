@@ -1,8 +1,8 @@
-##Digital Marketing Analytics Dashboard
+## Digital Marketing Analytics Dashboard
 
-📌 Project Overview
+📌 ### Project Overview
 
-This project analyzes a Digital Marketing Dataset from Kaggle, providing insights into customer interactions with digital marketing campaigns. The dataset includes demographic data, marketing-specific metrics, customer engagement indicators, and historical purchase data. The goal is to build an interactive Power BI dashboard that enables data-driven marketing decisions.
+This project analyzes a Digital Marketing Dataset from Kaggle, providing insights into customer interactions with digital marketing campaigns. The dataset includes demographic data, marketing-specific metrics, customer engagement indicators, and historical purchase data. The goal was to develop an interactive Power BI dashboard that empowers data-driven marketing decisions by analyzing the performance and effectiveness of 2024 campaigns.
 
 📂 Dataset Source: [Kaggle - Digital Marketing Dataset](https://www.kaggle.com/datasets/rabieelkharoua/predict-conversion-in-digital-marketing-dataset)
 
@@ -19,7 +19,7 @@ Data Cleaning & Transformation (within Power BI)
 
 The following calculated measures were created using DAX:
 
-📌 Measures:
+📌 ### Measures:
 
 Total Amount Spent – Total budget spent on campaigns
 
@@ -93,18 +93,14 @@ Age Group Classification – a reference table was created with a conditional co
 
 Customers grouped into:
 
-18-20 years
-
-21-30 years
-
-31-40 years
-
-41-50 years
-
-51-60 years
+- 18-20 years
+- 21-30 years
+- 31-40 years
+- 41-50 years
+- 51-60 years
 
 
-📈 Dashboards & Insights
+📈 ### Dashboards & Insights
 
 Three interactive dashboards were created for in-depth marketing analytics:
 
@@ -134,6 +130,7 @@ Cost Per Click (CPC) insights
 
 
 
+
 📥 How to Use the Dashboard
 
 Download the Power BI file (to be added once published)
@@ -141,6 +138,7 @@ Download the Power BI file (to be added once published)
 Open it in Power BI Desktop
 
 Explore the interactive dashboards
+
 
 
 
