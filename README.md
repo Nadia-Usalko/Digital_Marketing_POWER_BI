@@ -1,18 +1,17 @@
-Digital Marketing Analytics Dashboard
+##Digital Marketing Analytics Dashboard
 
 📌 Project Overview
 
 This project analyzes a Digital Marketing Dataset from Kaggle, providing insights into customer interactions with digital marketing campaigns. The dataset includes demographic data, marketing-specific metrics, customer engagement indicators, and historical purchase data. The goal is to build an interactive Power BI dashboard that enables data-driven marketing decisions.
 
-📂 Dataset Source: [Kaggle - Digital Marketing Dataset[(https://www.kaggle.com/datasets/rabieelkharoua/predict-conversion-in-digital-marketing-dataset)
+📂 Dataset Source: [Kaggle - Digital Marketing Dataset](https://www.kaggle.com/datasets/rabieelkharoua/predict-conversion-in-digital-marketing-dataset)
 
 🚀 Tech Stack
 
 Power BI (Data Visualization & Analysis)
-
 DAX (Data Analysis Expressions for calculated measures & columns)
-
 Data Cleaning & Transformation (within Power BI)
+
 
 🔗 Dashboard Link: (Will be added once published)
 
@@ -25,13 +24,11 @@ The following calculated measures were created using DAX:
 Total Amount Spent – Total budget spent on campaigns
 
 ```DAX
-
 total_amount_spent = SUM(digital_marketing_campaign_dataset[AdSpend_USD])
 ```
 
 Total Conversions – Number of successful conversions
 ```DAX
-
 total_conversions = 
 SUM(digital_marketing_campaign_dataset[Conversion])
 ```
@@ -39,14 +36,12 @@ SUM(digital_marketing_campaign_dataset[Conversion])
 
 Total Clicks – Count of ad clicks
 ```DAX
-
 total_clicks = 
 SUM('digital_marketing_campaign_dataset'[WebsiteVisits])
 ```
 
 Conversion Rate – Percentage of users who converted. The dataset only presented binary data - 1/0.
 ```DAX
-
 conversion_rate = 
 DIVIDE(
     COUNTROWS(
@@ -63,7 +58,6 @@ DIVIDE(
 
 Cost Per Click (CPC) – Total Amount Spent / Total Clicks
 ```DAX
-
 cost_per_click = 
 DIVIDE(
     SUM('digital_marketing_campaign_dataset'[AdSpend_USD]),
@@ -75,7 +69,6 @@ DIVIDE(
 
 Customer Acquisition Cost (CAC) – Total Amount Spent / Total Conversions
 ```DAX
-
 customer_acquisition_cost = 
 DIVIDE(
     [total_amount_spent],
@@ -86,7 +79,6 @@ DIVIDE(
 
 Campaign Effectiveness Ratio 
 ```DAX
-
 campaign_effectiveness_ratio = 
 DIVIDE(
     [total_conversions],
@@ -100,11 +92,17 @@ DIVIDE(
 Age Group Classification – a reference table was created with a conditional column in order to conduct analysis of customers by age.
 
 Customers grouped into:
+
 18-20 years
+
 21-30 years
+
 31-40 years
+
 41-50 years
+
 51-60 years
+
 
 📈 Dashboards & Insights
 
