@@ -91,12 +91,12 @@ Age Group Classification – a reference table was created with a conditional co
 
 Customers grouped into:
 
-- 18-20 years
-- 21-30 years
-- 31-40 years
-- 41-50 years
-- 51-60 years
-
+- 18-19 y.o.
+- 20-29 y.o.
+- 30-39 y.o.
+- 40-49 y.o.
+- 50-59 y.o.
+- 60-69 y.o. 
 
 ### Dashboards & Insights
 
@@ -104,29 +104,23 @@ Three interactive dashboards were created for in-depth marketing analytics:
 
 🔹 1. Conversion Rate Analysis
 
-Breakdown of conversion rates by different marketing channels
+This dashboard provides a comprehensive view of five primary campaign channels, breaking down key metrics including cost, total customers, conversion rate, and customer acquisition cost. The main feature is a scatter plot that illustrates the relationship between conversion rate and total spend for each campaign channel. Additionally, interactive card visuals allow you to dynamically explore different metrics—total spend, total customers, and conversion rate—by simply clicking through the options.
 
-Insights into Customer Acquisition Cost (CAC)
+![image](https://github.com/user-attachments/assets/d3fa434e-083b-46f1-80f5-3832f3762309)
 
-Campaign performance comparison
 
 🔹 2. Customer Demographics Analysis
 
-Breakdown of customers by age group
+In this section, we analyze total conversions and spend across different customer age groups. The dashboard provides insights into the number of customers and their respective conversion rates, helping to identify which age groups are most engaged and valuable.
 
-Analysis of campaign effectiveness ratio
+![image](https://github.com/user-attachments/assets/a2d492e2-98ee-41cc-9b7a-cf69e2593f7c)
 
-Customer trends based on demographics
 
 🔹 3. Website Visits & Engagement
 
-Average time spent on site
+Here, we examine the relationship between total website visits and average time spent on the site by different age groups. A pie chart with filtering functionality shows which users spent more than one minute on the site, offering deeper insights into engagement. Card visuals display the average Click-Through Rate (CTR) and Cost Per Click (CPC) for a more granular view of campaign performance.
 
-Click-Through Rate (CTR) analysis
-
-Cost Per Click (CPC) insights
-
-
+![image](https://github.com/user-attachments/assets/c77aec6b-0ef5-4ffd-acb6-e4c980e65cf1)
 
 
 📥 How to Use the Dashboard
@@ -135,7 +129,14 @@ Cost Per Click (CPC) insights
 - Open it in Power BI Desktop
 - Explore the interactive dashboards
 
+### Main Takeaways for Stakeholders:
 
+1. Campaign Effectiveness: Unfortunately, the overall campaign effectiveness was low, with a conversion rate of just 0.0175%. Despite this, the total spend was disproportionately high.
+2. High Conversion Rates, Low Effectiveness: Although conversion rates were high, indicating that many customers who engaged with campaigns did convert, the overall effectiveness didn’t yield strong results.
+3. Target Audience Insight: There was a notably lower participation rate among 18-19-year-olds, suggesting that they may not be the ideal target group for these campaigns.
+4. Age Group Performance: The highest conversion rates came from the 30-39-year-old demographic, which could be the most lucrative target audience.
+5. Campaign Channel Costs: The Referral campaign channel was the most expensive, while Social Media proved to be the most cost-effective channel.
+6. Spend vs Conversion Rate: There is a clear correlation between higher total spend and increased conversion rates, making it evident that increased investment led to better performance, although the overall effectiveness remains low.
 
 
 📧 Contact
