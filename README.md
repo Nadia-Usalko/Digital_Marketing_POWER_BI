@@ -8,9 +8,7 @@ This project analyzes a Digital Marketing Dataset from Kaggle, providing insight
 
 🚀 Tech Stack
 
-Power BI (Data Visualization & Analysis)
-DAX (Data Analysis Expressions for calculated measures & columns)
-Data Cleaning & Transformation (within Power BI)
+Power BI & DAX
 
 
 🔗 Dashboard Link: (Will be added once published)
